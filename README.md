@@ -1,16 +1,25 @@
-# weatherapp
+# Weather Map
 
-A new Flutter project.
+This is my first Flutter project—a simple **Weather Map** app built with the help of my friend **Muflih**.
+
+## Overview
+Weather Map shows real-time weather details for any location on an interactive map.  
+Users can **search for a place** or **tap directly on the map** to see the current temperature, weather condition, and a marker at that spot.
+
+## Features
+- Interactive map powered by **flutter_map**.
+- Search bar to find any location quickly.
+- Tap anywhere on the map to get real-time weather and temperature.
+- Marker highlights the selected location.
+
+## Tech Stack
+- **Flutter** (Dart)
+- **flutter_map** and **latlong2** for mapping
+- **HTTP package** for API requests
+- **OpenWeather API** for live weather data
+- **OpenStreetMap / MapTiler** for map tiles
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/indrajith-mv/weathermap.git
